@@ -50,7 +50,8 @@ span {
 .btn-2,
 .btn-3 {
     padding: 20px 100px;
-    border: none;
+    border: 1px #466157 solid;
+    transition: 1s;
     text-transform: uppercase;
     font-weight: 600;
     cursor: pointer;
@@ -65,8 +66,6 @@ span {
 .btn:hover {
     background-color: #ffffff;
     color: #466157;
-    border: 1px #466157 solid;
-    transition: 1s;
 }
 
 .btn-2,
@@ -74,14 +73,14 @@ span {
     margin: 20px ;
     background-color: #ffffff;
     color: #466157;
+    border: 1px #ffffff solid;
+    transition: 1s;
 }
 
 .btn-2:hover,
 .btn-3:hover {
     background-color: #466157;
     color: #ffffff;
-    border: 1px #ffffff solid;
-    transition: 1s;
 }
 
 footer {
@@ -164,7 +163,7 @@ input {
 
     .containers {
         width: 70%;
-        height: 40vh;
+        height: 50vh;
         margin-top: 10px;
         background-color: #ffffff;
     }
