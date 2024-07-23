@@ -100,7 +100,7 @@ footer {
     margin: auto;
     display:none;
     width: 40%;
-    height: 80vh;
+    height: 60vh;
     padding: 57px 91.2px;
     background-image: url('compress-images/yogaclass.webp');
     background-repeat: no-repeat;
@@ -126,7 +126,7 @@ footer {
 }
 
 input {
-    padding: .9em 5em ;
+    padding: .9em .3em ;
 }
 
 .privacy {
