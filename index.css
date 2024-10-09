@@ -217,14 +217,26 @@ input {
     }
  
 }
-@media (max-width:400px) {
+@media (max-width:430px) {
     .pop-upWindow {
         width: 80%;
         height: 40vh;
         padding: 20px 10px;
-        margin: auto px;
+        margin: auto ;
     }
     .containers {
-        height: 55vh;
+        height: 60vh;
+    }
+    .container-right-1{
+        padding:0rem;
+        margin:0;
+        width:100%;
+    }
+    .botton-section{
+        padding:1rem 0;
+    }
+    .botton-container{
+       display:flex;
+       margin:0 auto;
     }
 }
